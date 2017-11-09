@@ -17,7 +17,7 @@ class CCZoomAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioni
     var isPresentation : Bool = true
     
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
-        return 10
+        return 0.2
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
